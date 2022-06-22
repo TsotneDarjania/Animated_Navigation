@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eafbff;
+    background-image: linear-gradient(to bottom, #eafbff 0%,
+    #eafbff 50%, #5290f9 50%, #5290f9 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    background-color: azure;
+    padding: 20px;
+    width: 80px;
+}
+
+nav.active {
+    width: 350px;
+}
